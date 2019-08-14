@@ -3,7 +3,7 @@
 
     <modules>
         <Frosit_Fontawesomeness>
-            <version>1.1.0</version>
+            <version>1.2.0</version>
         </Frosit_Fontawesomeness>
     </modules>
 
@@ -69,11 +69,22 @@
 
     <default>
         <fontawesomeness>
-            <settings>
-                <font_awesome>
-                    <active>0</active>
-                </font_awesome>
-            </settings>
+            <font_awesome>
+                <active>0</active>
+            </font_awesome>
+            <local_fonts>
+                <active>0</active>
+            </local_fonts>
+            <custom>
+                <active>0</active>
+            </custom>
         </fontawesomeness>
     </default>
+    <phpunit>
+        <suite>
+            <modules>
+                <Frosit_Fontawesomeness/>
+            </modules>
+        </suite>
+    </phpunit>
 </config>
