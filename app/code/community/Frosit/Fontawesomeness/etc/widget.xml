@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<widgets>
+    <frosit_fontawesomeness_fontawesome_icon translate="name description" type="frosit_fontawesomeness/Widget_FontAwesomeIcon" module="frosit_fontawesomeness">
+        <name>Font Awesome Icon</name>
+        <description type="desc">Refer to the <![CDATA[ <a href="http://fontawesome.io/examples/">examples</a>]]></description>
+        <parameters>
+            <icon translate="label">
+                <label>Icon</label>
+                <type>select</type>
+                <source_model>frosit_fontawesomeness/system_config_source_fontAwesome_Icons</source_model>
+                <visible>1</visible>
+            </icon>
+            <size>
+                <label translate="label">Size</label>
+                <type>select</type>
+                <source_model>frosit_fontawesomeness/system_config_source_fontAwesome_Size</source_model>
+                <visible>1</visible>
+            </size>
+            <fixed>
+                <label translate="label">Fixed</label>
+                <type>select</type>
+                <source_model>adminhtml/system_config_source_yesno</source_model>
+                <visible>1</visible>
+            </fixed>
+            <spin>
+                <label translate="label">Animate spin</label>
+                <type>select</type>
+                <source_model>adminhtml/system_config_source_yesno</source_model>
+                <visible>1</visible>
+            </spin>
+            <flip_rotate translate="label">
+                <label>Flip / Rotate</label>
+                <type>select</type>
+                <source_model>frosit_fontawesomeness/system_config_source_fontAwesome_FlipRotate</source_model>
+                <visible>1</visible>
+            </flip_rotate>
+            <custom translate="label">
+                <label>Custom classes</label>
+                <description>Comma separated for multiple classes</description>
+                <type>textarea</type>
+                <visible>1</visible>
+            </custom>
+        </parameters>
+    </frosit_fontawesomeness_fontawesome_icon>
+
+</widgets>

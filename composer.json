@@ -3,7 +3,7 @@
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
-    "description": "Adds Font Awesome using CDN or local file storage.",
+    "description": "Adds popular iconic fonts like Font Awesome too your store.",
     "authors": [
     {
         "name": "Fabio Ros",
