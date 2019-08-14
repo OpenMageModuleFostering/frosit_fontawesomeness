@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Frosit_Fontawesomeness",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL)",
+    "homepage": "",
+    "description": "Adds Font Awesome using CDN or local file storage.",
+    "authors": [
+    {
+        "name": "Fabio Ros",
+        "email": "fabioros.it@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
