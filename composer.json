@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Frosit_Fontawesomeness",
+    "name": "openmage-module-fostering\/frosit_fontawesomeness",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Adds popular iconic fonts like Font Awesome too your store.",
     "authors": [
