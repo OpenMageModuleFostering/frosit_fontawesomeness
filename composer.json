@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Frosit_Fontawesomeness",
+    "name": "OpenMageModuleFostering\/Frosit_Fontawesomeness",
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
     "description": "Adds popular iconic fonts like Font Awesome too your store.",
     "authors": [
-    {
-        "name": "Fabio Ros",
-        "email": "fabioros.it@gmail.com"
-    }
-],
+        {
+            "name": "Fabio Ros",
+            "email": "fabioros.it@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
